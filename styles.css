@@ -1,0 +1,62 @@
+body {
+    color:white;
+    background:black;
+    margin: 0px;
+    font-family: "chakra petch", sans-serif;
+    margin-bottom:100px;
+}
+
+header { 
+    border-bottom:solid 1px rgb( 42, 122, 228);
+    padding: 15px;
+    font-size: 30px;
+    color: rgb( 42, 122, 228);
+
+}
+.chamada { 
+    background: rgb( 42, 122, 228);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center; 
+}
+
+.projetograndão{ 
+    margin-right: 5%;
+ }
+
+ h1{
+    font-size: 30px;
+
+ }
+
+ p{ 
+    font-size: 30px;
+ }
+
+.categoria-videos {
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+
+ }
+
+ .videos{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+ }
+
+ .categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+ }
+
+ .categoria-videos img:hover{
+    opacity: 1.0;
+    border: 5px solid rgb( 42, 122, 228);
+ }
+
+ .videos h2{
+    color:rgb( 42, 122, 228);
+ }
